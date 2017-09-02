@@ -7,10 +7,23 @@ java/
 license/
 orderManager/
 pageHTML/
-payment/
+
+## payment folder
+payment/*
+!payment/mandarin-hosted
+
 phpshop/
 rss/
-UserFiles/
+
+## UserFiles folder
+
+UserFiles/Files
+UserFiles/Image/Trial
+UserFiles/Image/.tmb
+UserFiles/Image/.quarantine
+UserFiles/Image/Payments/*
+!UserFiles/Image/Payments/mandarin_logo.png
+
 yml/
 .htaccess
 404.html

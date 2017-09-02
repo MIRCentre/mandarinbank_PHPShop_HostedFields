@@ -1,2 +1,8 @@
-# mandarinbank_PHPShop_HostedFields
-Payment-system for PHPShop CMS via Hosted Fields API(for MandarinBank)
+# PHPShop
+Данный модуль разработан и поддерживается Вучастым Игорем Ярославовичем.
+
+Пошаговая инструкция по установке модуля находится в корне репозитория, файл "README.txt". Прежде чем устанавливать модуль, убедитесь в соответствии с версией вашей CMS.
+При возникновении трудностей в работе модуля, или другим вопросам прошу обращаться на:
+- vuchastyi.igor@gmail.com
+
+Модуль разрабатывался на PHPShop Enterprise 5.2.5, совместим с PHPShop Enterprise 5.2.x
