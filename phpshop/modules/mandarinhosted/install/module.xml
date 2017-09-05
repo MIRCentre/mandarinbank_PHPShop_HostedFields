@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>0.0.2</version>
+    <name>MandarinPay Hosted</name>
+    <description>Прием оплат через MandarinPay API Hosted Fields</description>
+    <category>sale</category>
+    <faqlink>https://github.com/vuchastyi/mandarinbank_PHPShop_HostedFields</faqlink>
+    <adminmenu>
+        <title>MandarinPay Hosted</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Настройка</podmenu_name>
+        </podmenu>
+    </adminmenu>
+</module>

@@ -7,12 +7,16 @@ java/
 license/
 orderManager/
 pageHTML/
-
-## payment folder
 payment/*
-!payment/mandarin-hosted
+!payment/mandarin_hosted
 
-phpshop/
+
+phpshop/*
+!phpshop/modules
+phpshop/modules/*
+!phpshop/modules/mandarinhosted
+
+
 rss/
 
 ## UserFiles folder
