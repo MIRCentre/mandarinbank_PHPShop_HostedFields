@@ -2,7 +2,7 @@
 <module>
     <version>0.0.2</version>
     <name>MandarinPay Hosted</name>
-    <description>Прием оплат через MandarinPay API Hosted Fields</description>
+    <description>Прием оплат через MandarinPay Hosted Fields API</description>
     <category>sale</category>
     <faqlink>https://github.com/vuchastyi/mandarinbank_PHPShop_HostedFields</faqlink>
     <adminmenu>

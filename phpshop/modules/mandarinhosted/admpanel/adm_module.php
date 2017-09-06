@@ -35,17 +35,9 @@ function actionStart() {
   $Tab1.=$PHPShopGUI->setField('ID Мерчанта', $PHPShopGUI->setInputText(false, 'merchant_key_new', $data['merchant_key'], 250));
   $Tab1.=$PHPShopGUI->setField('Секретный ключ', $PHPShopGUI->setInputText(false, 'merchant_skey_new', $data['merchant_skey'], 250));
 
-  $info = '
-<p></p>
-
-<h4>Настройка модуля</h4>
-       <ol>
-       <li>Зарегистрироваться в <a href="http://nextpay.ru/" target="_blank">NextPay</a>. Для работы без принменения кассового оборудования при подаче заявки на регистрацию сайта выберите в поле "Правовая форма" опцию "Юридическое лицо/ИП (без заключения договора)" и заполните реквизиты вашей организации.
-       <li>Создайте продукт в кабинете продавца в системе в разделе <kbd>Каталоги</kbd> - <kbd>Создать продукт</kbd>
-<li>В настройках продукта в поле "URL доставки заказа" указать <code>http://'.$_SERVER['SERVER_NAME'].'/phpshop/modules//payment/result.php</code>
-        </ol>
-
-';
+  $info = '<h4>MerchantId и Secret для интеграции</h4>
+<p>MerchantID - это числовой идентификатор вашего проекта (магазина) в системе Mandarinpay, используемый для идентификации.<br>
+Значения MerchantID и secret можно найти в <a href="https://admin.mandarinpay.com/user/" target="_blank">Личном кабинете</a> на вкладке Продажи.</p>';
 
   $Tab2 = $PHPShopGUI->setInfo($info);
 
