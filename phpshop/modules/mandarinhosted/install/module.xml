@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <module>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>MandarinPay Hosted</name>
     <description>Прием оплат через MandarinPay Hosted Fields API</description>
     <category>sale</category>
